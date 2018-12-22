@@ -1,0 +1,20 @@
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+$font-gothman-rounder: "fontd31d488d2171c1668c15962fc6cf1ef7";

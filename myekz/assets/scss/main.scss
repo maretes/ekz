@@ -1,0 +1,255 @@
+@font-face {
+  font-family: 'fontd31d488d2171c1668c15962fc6cf1ef7';
+
+  src:    url('https://nomail.com.ua/files/eot/d31d488d2171c1668c15962fc6cf1ef7.eot?#iefix') format('embedded-opentype'),
+  url('https://nomail.com.ua/files/woff/d31d488d2171c1668c15962fc6cf1ef7.woff') format('woff'),
+  url('https://nomail.com.ua/files/woff2/d31d488d2171c1668c15962fc6cf1ef7.woff2') format('woff2');
+}
+
+@import 'variables';
+@import 'container/_container.scss';
+@import 'top-section/top-section';
+@import 'link/link';
+@import 'header/header';
+@import 'menu-list/menu-list';
+@import 'button/button';
+@import 'hamburger/hamburger';
+@import "home/home";
+
+.second {
+  background: #f5f6f7 url("../img/bg_second.png") right no-repeat;
+  background-size: cover;
+  &__block {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 450px;
+    width: 100%;
+    margin: 100px 0;
+    &_text {
+      & h3 {
+        color: #16a085;
+        font-family: $font-gothman-rounder;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 2.7px;
+      }
+      & p {
+        color: #373737;
+        font-family: $font-gothman-rounder;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        margin: 40px 0;
+        float: left;
+      }
+    }
+  }
+}
+
+.third {
+  background: #fff url("../img/bg_third.png") left no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  &__block {
+    float: right;
+    max-width: 450px;
+    width: 100%;
+    margin: 50px 0;
+    & img {
+      margin-top: 50px;
+    }
+  }
+  &__text {
+    margin: 50px 0;
+    & h3 {
+      color: #16a085;
+      font-family: "Gotham Rounded";
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 22px;
+      text-transform: uppercase;
+    }
+    & p {
+      color: #373737;
+      font-family: "Gotham Rounded - Book";
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 22px;
+
+    }
+  }
+}
+
+.fourth {
+  background: #f5f6f7;
+  padding: 50px 0;
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    @media (max-width: 999px) {
+      justify-content: center;
+    }
+  }
+  &__text {
+    max-width: 250px;
+    margin: 55px 0;
+    text-align: center;
+    & h3 {
+      color: #373737;
+      font-family: "Gotham Rounded";
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 20px;
+      text-transform: uppercase;
+    }
+    & p {
+      color: #373737;
+      font-family: "Gotham Rounded";
+      font-size: 13px;
+      font-weight: 500;
+    }
+  }
+}
+
+.fifthy {
+  background: #58595b url("../img/Livello_3.png") center no-repeat;
+  background-size: cover;
+  padding: 200px 0;
+  text-align: center;
+  &__block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  &__text {
+    & h3 {
+      color: #ffffff;
+      font-family: "Gotham Rounded";
+      font-size: 24px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+
+  & form {
+    display: flex;
+    justify-content: center;
+    & input {
+      width: 280px;
+      height: 60px;
+      padding: 20px;
+      border-radius: 3px 0 0 3px;
+      background-color: #ffffff;
+      border: none;
+      color: #373737;
+      font-family: "Gotham Rounded";
+      font-size: 16px;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+
+    & button {
+      border: none;
+      width: 63px;
+      height: 60px;
+      border-radius: 0 3px 3px 0;
+      background-color: #16a085;
+      &:hover {
+        cursor: pointer;
+        background: #16a095;
+      }
+    }
+  }
+}
+
+.seventh {
+  background: #f5f6f7;
+  padding: 100px 0;
+  text-align: center;
+  &__block {
+
+  }
+  &__text {
+    width: 70%;
+    margin: 0 auto;
+    & h3 {
+
+    }
+    & p {
+
+    }
+  }
+  &__bt {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    & a {
+      color: #ffffff;
+      font-family: "Gotham Rounded";
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-decoration: none;
+      &:hover {
+        opacity: .5;
+      }
+    }
+
+  }
+}
+
+.apple {
+  display: block;
+  margin: 5px;
+  width: 300px;
+  background: url("../img/Rettangolo 91.png") no-repeat right;
+  padding: 19px 100px;
+
+}
+
+.play {
+  display: block;
+  margin: 5px;
+  width: 300px;
+  background: url("../img/Rettangolo 9 copia.png") no-repeat right;
+  padding: 19px 100px;
+
+}
+
+.footer {
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    @media (max-width: 556px) {
+      text-align: center;
+      justify-content: center;
+    }
+  }
+  &__link {
+    color: #373737;
+    font-family: "Gotham Rounded";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+    & a {
+      text-decoration: none;
+      color: #373737;
+      &:hover {
+        color: #d4d4d4;
+      }
+    }
+  }
+
+}
